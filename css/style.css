@@ -1,7 +1,7 @@
 @charset "UTF-8";
-/*
+/* 
 &display=swap
-&subset=cyrillic-ext
+&subset=cyrillic-ext 
 */
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Hind:300,regular,500,600,700&display=swap");
@@ -152,7 +152,6 @@ body {
 .wrapper .menu__item {
   padding: 10px 10px;
   -webkit-transition: all 0.2s ease 0s;
-  -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 .wrapper .menu__item:hover {
@@ -253,6 +252,25 @@ body {
   letter-spacing: -0.2px;
   color: #212121;
   opacity: 0.6;
+}
+.wrapper .main__container .about__skills {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: -0.2px;
+  color: #212121;
+  opacity: 0.6;
+}
+.wrapper .main__container .about__skills li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 10px 3px 0;
 }
 .wrapper .main__container .contacts {
   display: -webkit-box;
@@ -361,6 +379,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   padding: 10px 10px 30px 10px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
@@ -368,7 +389,6 @@ body {
   border-bottom: 2px solid rgba(0, 0, 0, 0.192);
 }
 .wrapper .main__container .code__example {
-  background-color: rgba(119, 119, 119, 0.171);
   max-width: 230px;
   font-family: "Hind";
   font-style: normal;
@@ -377,7 +397,6 @@ body {
   line-height: 1.6;
   letter-spacing: -0.2px;
   color: #212121;
-  opacity: 0.7;
 }
 .wrapper .main__container .main__courses {
   display: -webkit-box;
@@ -413,7 +432,6 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.192);
 }
 .wrapper .main__container .courses__items {
   font-family: "Hind";
@@ -446,7 +464,6 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.192);
 }
 .wrapper .main__container .languages__items {
   font-family: "Hind";
@@ -573,7 +590,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.2px;
-  margin: 5px 30px 0 0;
+  margin: 5px 10px 0 0;
   text-align: center;
   color: rgba(245, 245, 245, 0.4666666667);
 }
