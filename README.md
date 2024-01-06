@@ -1,1 +1,1 @@
-https://drumwarz.github.io/rsschool-cv/
+https://drumwarz.github.io/QA/
